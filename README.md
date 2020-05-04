@@ -1,5 +1,5 @@
-# EPOS 4 (for) MATLAB
-Commanding Maxon EPOS 4 Motor Controller(s) from MATLAB
+# EPOS Libraries for MATLAB (on Windows)
+Commanding Maxon EPOS Motor Controller(s) from MATLAB on Windows Platform
 
 # Requirements
 * A computer with Windows OS (Tested on Windows 10 Pro 1909)
@@ -9,9 +9,9 @@ Commanding Maxon EPOS 4 Motor Controller(s) from MATLAB
 * C++ Compiler (Tested with Microsoft Visual C++ 2019 (C) - Visual Studio 2019)
 
 # How to use it
-* Clone the repository `git clone git@github.com:IordanisKostelidis/EPOS4MATLAB.git`
+* Clone the repository `git clone git@github.com:HERMESTeamEU/EPOS-Libraries-for-MATLAB-Windows.git`
 * Download and install the EPOS Studio - [Download Now](https://www.maxongroup.com/medias/sys_master/root/8837358125086/EPOS-2-4-IDX-Setup.zip)
-* From `C:\Program Files (x86)\maxon motor ag\EPOS IDX\EPOS4`, find and copy the following files to `./EPOS4MATLAB/Epos4Windows`
+* From `C:\Program Files (x86)\maxon motor ag\EPOS IDX\EPOS4`, find and copy the following files to `./EPOS-Libraries-for-MATLAB-Windows/Epos4Windows`
     * `Definitions.h`
     * `EposCmd.dll`
     * `EposCmd.lib`
@@ -20,7 +20,7 @@ Commanding Maxon EPOS 4 Motor Controller(s) from MATLAB
     * `vxlapi.dll`
     * `vxlapi64.dll`
 * Start the MATLAB
-* Open the `./EPOS4MATLAB` using MATLAB command window
+* Open the `./EPOS-Libraries-for-MATLAB-Windows` using MATLAB command window
 * Run the following commands from MATLAB command window
     ```
     Clean
